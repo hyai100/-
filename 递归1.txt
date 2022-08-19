@@ -1,0 +1,53 @@
+#include<studio>
+void digui(char** arr);
+char name[]=
+"
+"jim"
+"pang"
+"shun"
+"ai"
+"end"
+";
+int main()
+{
+	digui(name);
+	return 0;
+}
+void digui(char** arr)
+{
+	if( *arr=="end")
+	{
+	return;
+	}
+	else
+	{
+	digui(arr+1);
+	printf("Êä³öÎª£º%s",*arr);
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
